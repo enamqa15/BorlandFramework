@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51784" started-at="2015-09-02T06:43:22Z" finished-at="2015-09-02T06:44:14Z">
+  <suite name="Default suite" duration-ms="9856" started-at="2015-09-03T06:12:42Z" finished-at="2015-09-03T06:12:52Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51784" started-at="2015-09-02T06:43:22Z" finished-at="2015-09-02T06:44:14Z">
-      <class name="frameworkborland.Borland_001">
-        <test-method status="PASS" signature="lunchbrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="lunchbrowser" is-config="true" duration-ms="7265" started-at="2015-09-01T23:43:22Z" finished-at="2015-09-01T23:43:29Z">
+    <test name="Default test" duration-ms="9856" started-at="2015-09-03T06:12:42Z" finished-at="2015-09-03T06:12:52Z">
+      <class name="com.screenshoot.CaptureScreenshot">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.screenshoot.CaptureScreenshot@5474c6c]" name="setUp" is-config="true" duration-ms="9080" started-at="2015-09-02T23:12:42Z" finished-at="2015-09-02T23:12:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lunchbrowser -->
-        <test-method status="PASS" signature="about_gmo_site()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="about_gmo_site" duration-ms="740" started-at="2015-09-01T23:43:29Z" finished-at="2015-09-01T23:43:30Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.screenshoot.CaptureScreenshot@5474c6c]" name="test" duration-ms="240" started-at="2015-09-02T23:12:51Z" finished-at="2015-09-02T23:12:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- about_gmo_site -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="closebrowser" is-config="true" duration-ms="462" started-at="2015-09-01T23:43:30Z" finished-at="2015-09-01T23:43:31Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.screenshoot.CaptureScreenshot@5474c6c]" name="tearDown" is-config="true" duration-ms="516" started-at="2015-09-02T23:12:52Z" finished-at="2015-09-02T23:12:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="lunchbrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="lunchbrowser" is-config="true" duration-ms="6347" started-at="2015-09-01T23:43:31Z" finished-at="2015-09-01T23:43:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchbrowser -->
-        <test-method status="PASS" signature="billinginfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="billinginfo" duration-ms="27378" started-at="2015-09-01T23:43:38Z" data-provider="Authentication" finished-at="2015-09-01T23:44:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[MD]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[351 S ST ANDREWS PL]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[LA]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[CA]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[213-841-7273]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[enam@gmail.com]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Visa]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1233-3333-3335-5665]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- billinginfo -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="closebrowser" is-config="true" duration-ms="342" started-at="2015-09-01T23:44:05Z" finished-at="2015-09-01T23:44:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-        <test-method status="PASS" signature="lunchbrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="lunchbrowser" is-config="true" duration-ms="6744" started-at="2015-09-01T23:44:05Z" finished-at="2015-09-01T23:44:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchbrowser -->
-        <test-method status="PASS" signature="browser_test_page()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="browser_test_page" duration-ms="1310" started-at="2015-09-01T23:44:12Z" finished-at="2015-09-01T23:44:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_test_page -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:frameworkborland.Borland_001@2fc14f68]" name="closebrowser" is-config="true" duration-ms="426" started-at="2015-09-01T23:44:13Z" finished-at="2015-09-01T23:44:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- frameworkborland.Borland_001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.screenshoot.CaptureScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
